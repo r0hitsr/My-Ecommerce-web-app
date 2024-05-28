@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TASK HTML</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1 id="h1">So Many Tasks !!</h1>
+    <head>
+      <h1 onclick="allProducts()">All Products</h1>
+      <div
+        id="all"
+        style="display: flex; flex-wrap: wrap; column-gap: 10px"
+      ></div>
+    </head>
+    <h3 id="btn">
+      <button onclick="addToCart()">Add to cart</button>
+      <p id="cart">Enter Product ID</p>
+      <button onclick="display()">Display Cart</button>
+      <p id="display"></p>
+      <button onclick="placeOrder()">Place Order</button>
+      <p id="place"></p>
+      <button onclick="orderHistory()">Order History</button>
+      <p id="history"></p>
+    </h3>
+
+    <script src="index.js"></script>
+  </body>
+</html>

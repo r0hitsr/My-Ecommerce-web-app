@@ -1,0 +1,137 @@
+h1 {
+  font-size: 4rem;
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1.5rem;
+}
+body {
+  margin: 0;
+  font-family: "Prompt", sans-serif, "Segoe UI Emoji", "Apple Color Emoji",
+    "NotoColorEmoji";
+  color: white;
+  background: #202731;
+  overflow-x: hidden;
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  padding-top: 100px;
+}
+
+section img {
+  border-radius: 24rem;
+  width: 10rem;
+  height: 10rem;
+}
+
+#card {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+#display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#card-item {
+  border: 2px solid;
+  width: 15rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+  border-radius: 1.2rem;
+  gap: 9px;
+}
+
+#desc span {
+  font-size: 11px;
+  padding: 16px;
+}
+
+#items {
+  padding-left: 36rem;
+  width: 39rem;
+}
+
+#cartItm {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 6rem;
+}
+
+#Cart {
+  width: 4rem;
+  border-radius: 0rem;
+  border: 2px solid;
+  height: 2rem;
+  display: flex;
+  flex-direction: row;
+  padding: 11px;
+}
+
+#addToCartNum {
+  background-color: red;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#addToCartText {
+  padding-top: 15px;
+  position: absolute;
+  padding-left: 18px;
+}
+
+#total {
+  display: flex;
+  gap: 5.5rem;
+  padding-bottom: 5px;
+  padding-top: 9px;
+}
+
+table {
+  border: 1.5px solid;
+}
+
+#close {
+  padding-left: 6rem;
+}
+
+#close button {
+  margin: 5px;
+}
+
+#modalOrder {
+  width: 24rem;
+}
+
+#modalOrder table,
+th,
+tr,
+td {
+  width: 22rem;
+}
+
+#closeOrder {
+  padding-left: 18rem;
+}

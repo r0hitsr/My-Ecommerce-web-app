@@ -1,0 +1,34 @@
+const products = [
+  { id: 101, name: 'Laptop', price: 1200 },
+  { id: 102, name: 'Mouse', price: 30 },
+  { id: 103, name: 'Headphones', price: 100 },
+  { id: 104, name: 'Keyboard', price: 50 },
+  { id: 105, name: 'Monitor', price: 300 },
+  { id: 106, name: 'Webcam', price: 40 },
+  { id: 107, name: 'External Hard Drive', price: 80 },
+  { id: 108, name: 'Graphics Card', price: 500 },
+  { id: 109, name: 'Wireless Router', price: 60 },
+  { id: 110, name: 'Printer', price: 150 },
+  { id: 111, name: 'Smartphone', price: 700 },
+  { id: 112, name: 'Tablet', price: 400 },
+  { id: 113, name: 'Smartwatch', price: 250 },
+  { id: 114, name: 'Fitness Tracker', price: 80 },
+  { id: 115, name: 'Gaming Console', price: 350 },
+  { id: 116, name: 'Virtual Reality Headset', price: 200 },
+  { id: 117, name: 'Camera', price: 600 },
+  { id: 118, name: 'Drone', price: 800 },
+  { id: 119, name: 'Bluetooth Speaker', price: 70 },
+  { id: 120, name: 'Wireless Earbuds', price: 120 },
+  { id: 121, name: 'Backpack', price: 50 },
+  { id: 122, name: 'Desk Chair', price: 150 },
+  { id: 123, name: 'Desk Lamp', price: 30 },
+  { id: 124, name: 'Bookshelf', price: 80 },
+  { id: 125, name: 'Coffee Maker', price: 40 },
+]
+
+here is list of some products to carry out various operation (create html page for this task)
+
+* Implement a function to add a product to the user's cart.
+* Implement a function to display the user's cart.
+* Implement a function to place an order, which moves the items from the cart to the orders array and calculates the total cost.
+* Display the user's order history.
