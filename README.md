@@ -37,19 +37,6 @@
 
 The purpose of this repository it's for education and test. But the code it's being coded in a proper way.
 
-## Documentation
-
-**eCommerce** has a full API documentation made with [Swagger](https://swagger.io), you can check it by accessing [this](http://santoro.pw/eCommerce) link.
-
-If you have any **Issue** or bug you can submit a new Issue by accessing [this](issues/) link.
-
-If you want to **Contribute** you can submit a Pull Request, remember to READ the [Contributing Guide](CONTRIBUTING.md)
-
-## Installation
-
-* **eCommerce** it's splitted into two standalone RESTful API's, so you can run it on whatever port you want. Installing 
-* **eCommerce** it's easy, the tutorial above will explain to you.
-* **eCommerce** uses Groovy `2.4` and Grails `3.2.11`.
 
 You can run **eCommerce** in different ways. You can go to the [Releases Page](releases/) and download the source code of the latest release, or a bundled .war or a standalone java application (.jar).
 
@@ -85,18 +72,6 @@ If you want to run it in development scenario, you can also do it by **building*
 
 ### Production
 
-Production Environments are focused in being ready. That means, you just need execute the Jar File.
-
-In the Production Environment all eCommerce API's are configured to work with **MySQL** in two databases; **productsAPI** and **purchaseAPI** and to work with a default **username and password** combination:
-
-**Note.:** Remember importing each SQL files, if using MySQL for Production. You can find them inside `products-api/src/main/sql/` and `purchase-api/src/main/sql/`
-
-* **Username:** commerce
-* **Password:** commerceapi
-* **Database:** productsapi & purchaseapi
-* **Port:** 3306
-
-You can change those credentials in the `application.yaml` file. In production environments **you need import the database schema** before running the software. Both `products-api` and `purchase-api` DDL files are available on [this](sql/) folder.
 
 ### Notes
 
